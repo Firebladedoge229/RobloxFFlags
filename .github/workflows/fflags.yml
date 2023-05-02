@@ -21,7 +21,7 @@ jobs:
       - name: Get Roblox Settings
         run: |
           curl -o PCDesktopClient.json https://clientsettings.roblox.com/v2/settings/application/PCDesktopClient
-          python format_sort_settings.py
+          python format.py
 
       - name: Upload JSON file
         uses: actions/upload-artifact@v2
