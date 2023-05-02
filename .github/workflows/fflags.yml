@@ -1,4 +1,4 @@
-name: Get Roblox Settings
+name: FFlags
 
 on:
   push:
